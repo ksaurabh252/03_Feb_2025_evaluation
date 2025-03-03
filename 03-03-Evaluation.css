@@ -32,9 +32,10 @@ a {
   text-decoration: none;
 }
 
+
 /* main section */
 main {
-  background-image: url("./images/img1.png");
+  background-image: url('./images/img1.png');
   background-repeat: no-repeat;
   background-size: 600px 500px;
   /* background-size: cover; */
@@ -48,6 +49,7 @@ main {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 #section1Div1 img {
@@ -96,11 +98,13 @@ main {
 #section2Div2 img {
   max-width: 25rem;
   margin: 2rem 0;
+
 }
 
 #mentorShipH1 {
   text-align: center;
   font-size: 3rem;
+
 }
 
 /* mentorShip */
@@ -147,6 +151,10 @@ footer {
   justify-content: space-around;
 }
 
+.footerSection2>* {
+  margin-top: 1rem
+}
+
 .footerSection1>* {
   margin: 2rem 0;
 }
@@ -154,6 +162,7 @@ footer {
 #footerLink {
   display: grid;
   grid-template-columns: 200px 200px;
+
 }
 
 #footerLink1>* {
@@ -177,7 +186,7 @@ footer {
 }
 
 /* Media Query */
-@media (max-width: 800px) {
+@media (max-width:800px) {
 
   nav>span,
   ul>li {
