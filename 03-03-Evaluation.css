@@ -143,7 +143,7 @@ button {
 /* Footer */
 footer {
   display: grid;
-  max-height: 20%;
+  height: 20%;
   margin-top: 10rem;
   background-color: black;
   color: white;
@@ -175,6 +175,10 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
+}
+
+#copyright {
+  margin-top: 3rem;
 }
 
 .menu {
@@ -218,5 +222,13 @@ footer {
     justify-content: center;
     align-items: center;
     line-height: 2rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
   }
 }
